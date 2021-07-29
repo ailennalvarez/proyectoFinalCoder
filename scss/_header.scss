@@ -1,0 +1,30 @@
+header{
+    .mimenu{
+        background-color:#a8a27f;
+        .mimenu__tituloP{
+            text-transform: uppercase;
+            padding: 1%;
+            margin: 1%;
+            font-weight: bold;
+            font-size:150%;
+        }
+        .mimenu--miItem{
+            color:black;
+            font-weight: bold;
+        }
+    }
+    
+
+}
+
+.miFooter{
+    background-color: #a8a27f;
+    color: black;
+    font-weight: bold;
+    .miFooter__tituloP{
+        text-transform: uppercase;
+        padding: 1.5%;
+        font-weight: bold;
+        font-size:150%;
+    }
+}

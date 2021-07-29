@@ -1,0 +1,30 @@
+/*Galeria*/
+main{
+    display: flex;
+    flex-flow: row wrap;
+    margin:10px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    .galeria{
+        width: 500px;
+        height: 562px;
+        opacity:3;
+        border: 2px double;
+       
+    }
+}
+.galeria--cartel:hover{
+    transform:scale(1.1,1.1);
+    transition: all 2s ease;
+}
+.galeria--pileta:hover{
+    transform:scale(1.1,1.1);
+    transition: all 2s ease;
+
+}
+.galeria--algibe:hover{
+    transform:scale(1.1,1.1);
+    transition: all 2s ease;
+    
+}

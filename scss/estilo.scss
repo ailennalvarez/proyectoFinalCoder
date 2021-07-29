@@ -1,0 +1,76 @@
+@import "grilla";
+@import "header";
+@import "formulario";
+@import "imagenes";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#c7b6a7;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: black;
+    font-size: larger;
+    text-align: center;
+    text-decoration: underline;
+}
+.caja{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px;
+    justify-content: center;
+    align-content: stretch;
+    .caja__art{
+        flex-basis: 300px;
+        margin:10px;
+        .caja__art--p1{
+            background-color:#be7e5d;
+            order:-1;
+            flex-grow: 1;
+            font-weight:bolder;
+            font-size: medium;
+            text-align: center;
+        }
+    }
+    .caja__art{
+        background-color:#be7e5d;
+        order:1;
+        flex-grow: 1;   
+        font-weight:bolder;
+        font-size: medium;
+        text-align: center;   
+    }
+}
+
+.tabla1{
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: solid;
+    border-color:#be7e5d;
+    border-width: medium;
+    .tabla1__elemento{
+        color:black;
+        text-align: center;
+
+   }
+
+}
+
+.ubicacion{
+    background-color: rgb(204, 191, 172);
+    width:100%;
+    padding: 10px;
+    .ubicacion__gma{
+        color: black;
+        text-align: center;
+    }
+}
+

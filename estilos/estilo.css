@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Mobile*/
+@media only screen and (max-width:760px){
+ 
+    h1{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:768px){
+ 
+    h1{
+        font-size: large;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    h1{
+        font-size: medium;
+    }
+}
+
+
+.imagenLogo{
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+.imagenPrincipal{
+    height: 400px;
+    width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 15px auto;
+    justify-content: center;
+    align-content: stretch;
+
+}
+
+body{
+    background-color:#c7b6a7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*
+.tituloP{
+    text-transform: uppercase;
+    padding: 1%;
+    margin: 1%;
+    font-weight: bold;
+    font-size:150%;
+}
+.miMenu{
+    background-color:#a8a27f;
+}
+.miItem{
+    color:black;
+    font-weight: bold;
+}
+
+p{
+    font-weight:bolder;
+    font-size: medium;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    font-size: larger;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.tabla1{
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: solid;
+    border-color:black;
+    border-width: medium;
+}
+
+.ubicacion{
+    text-align: center;
+    width:100%;
+    padding: 10px;
+}*/
+.imagenLogoF{
+    border-radius: 50%;
+    width: 100px;
+}
+
+h5{
+    text-align: right;
+}
+
+
+
+
+
+.padre{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:200%;
+}
+
+
+
+
+/*flexbox
+
+.caja{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px;
+    justify-content: center;
+    align-content: stretch;
+}
+
+article{
+    flex-basis: 300px;
+    margin:10px;
+}
+
+.art1{
+    background-color:#be7e5d;
+    order:-1;
+    flex-grow: 1;
+}
+
+.art2{
+    background-color:#be7e5d;
+    order:1;
+    flex-grow: 1;
+}*/
+
+legend{
+    text-align: center;
+    font-weight: bold;
+}
+/*CONTACTOS
+
+.formulario{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content:center;
+}
+
+.campos{
+    margin: 10px;
+    flex-basis: 300px;
+}
+*/
+
+/*GALERIA
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.galeria{
+    width: 500px;
+    height: 562px;
+    opacity:3;
+    border: 2px double;
+}
+    
+.galeria:hover{
+    opacity: 1;
+    border: solid 2px #5e7045;
+}
+*/
+
+/*Grids*/
+/*Promociones
+
+.padre{
+    margin: 20px auto;
+    width:95%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr ;
+    gap:50px;
+    grid-template-areas: 
+        "especial dos cuatro"
+        "especial seis seis";
+    justify-items: stretch;
+    align-items: stretch;
+  
+}
+
+.hijo{
+background-color: #be7e5d;
+border: solid  1px #BD8467;
+font-size: 1.5rem;
+padding:1rem;
+margin:0.5rem;
+
+
+}
+
+.hijo:hover{
+opacity: 1;
+background-color: #c0937c;
+}
+
+.especial{
+grid-area: especial;
+justify-self: center;
+align-self: stretch;
+
+}
+
+.dos{
+grid-area: dos;
+
+}
+
+
+.cuatro{
+grid-area: cuatro; 
+}
+
+
+.seis{
+grid-area: seis;
+}
+*/
+.redes{
+    background-image: linear-gradient(to right top, #c7b6a7, #c5a993, #c29b7f, #c08d6d, #be7e5d);
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 85%;
+    grid-template-areas: 
+        "logo inst"
+        "logo faceb"
+        "logo whatsapp";
+}
+.imagenLogoF{
+grid-area: logo;
+justify-self: start;
+align-self: center;
+}
+
+.inst{
+grid-area: inst;
+justify-self: end;
+align-self: start;
+}
+.faceb{
+grid-area: faceb;
+justify-self: end;
+align-self: start;
+}
+.whatsapp{
+grid-area: whatsapp;
+justify-self: end;
+align-self: start;
+}
+/*Mobile a grids*/
+@media only screen and (max-width:768px){
+    .padre{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, fr);
+        grid-template-areas:
+        "especial"
+        "dos"
+        "cuatro"
+        "seis";
+    }
+
+}
+
+/*Animacion*/
+.cartel:hover{
+    transform:scale(1.1,1.1);
+    transition: all 2s ease;
+}
+.pet:hover{
+    transform:scale(1.1,1.1);
+    transition: all 2s ease;
+}
+.pileta:hover{
+    transform:scale(1.1,1.1);
+    transition: all 2s ease;
+}
+.algibe:hover{
+    transform:scale(1.1,1.1);
+    transition: all 2s ease;
+}
+
+/*Carrousel index*/
+
+.sizeCarrousel{
+    width:1200px;
+    margin: 20px auto;
+}
+
+.iCarrousel{
+    width: 1200px;
+    height: 500px;
+}

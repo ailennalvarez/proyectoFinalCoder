@@ -1,0 +1,14 @@
+
+/*CONTACTOS */
+.formulario{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content:center;
+    border: solid 1px black;
+    margin:5%;
+    .campos{
+        margin: 5px;
+        flex-basis: 300px;
+    }
+}

@@ -1,0 +1,41 @@
+$bggrid:#be7e5d;
+
+.grid-container{
+    margin: 20px auto;
+    width:95%;
+    height: 450px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr ;
+    gap:50px;
+    text-align:center;
+    justify-content: stretch;
+    font-size: 1.5rem;
+    grid-template-areas: 
+        "especial dos cuatro"
+        "especial seis seis";
+}
+
+
+.especial{
+grid-area: especial;
+background-color:$bggrid;
+}
+
+.dos{
+grid-area: dos;
+background-color:$bggrid;
+}
+
+
+.cuatro{
+grid-area: cuatro; 
+background-color:$bggrid;
+}
+
+
+.seis{
+grid-area: seis;
+background-color:$bggrid;
+}
+
