@@ -291,7 +291,7 @@ align-self: start;
 
 }*/
 
-/*Animacion*/
+/*Animacion
 .cartel:hover{
     transform:scale(1.1,1.1);
     transition: all 2s ease;
@@ -307,7 +307,7 @@ align-self: start;
 .algibe:hover{
     transform:scale(1.1,1.1);
     transition: all 2s ease;
-}
+}/*
 
 /*Carrousel index
 

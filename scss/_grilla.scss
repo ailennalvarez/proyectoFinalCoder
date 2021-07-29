@@ -1,5 +1,16 @@
 $bggrid:#be7e5d;
 
+@mixin grill($grid){
+    grid-area:$grid;
+    background-color: $bggrid;
+    padding: 1rem;
+    p{
+        color: black;
+        text-align: center;
+    }
+
+}
+
 .grid-container{
     margin: 20px auto;
     width:95%;
@@ -18,25 +29,21 @@ $bggrid:#be7e5d;
 
 
 .especial{
-grid-area: especial;
-background-color:$bggrid;
+    @include grill(especial);
 }
 
 .dos{
-grid-area: dos;
-background-color:$bggrid;
+    @include grill(dos);
 }
 
 
 .cuatro{
-grid-area: cuatro; 
-background-color:$bggrid;
+    @include grill(cuatro);
 }
 
 
 .seis{
-grid-area: seis;
-background-color:$bggrid;
+    @include grill(seis);
 }
 
 @media only screen and (max-width:768px){

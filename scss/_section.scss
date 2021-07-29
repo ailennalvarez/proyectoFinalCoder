@@ -1,0 +1,59 @@
+@mixin cajas($order){
+    background-color:#be7e5d;
+    order:$order;
+    flex-grow: 1;
+    font-weight:bold;
+    font-size: medium;
+    text-align: center;
+   
+}
+
+
+
+.caja{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px;
+    justify-content: center;
+    align-content: stretch;
+    .caja__art{
+        flex-basis: 300px;
+        margin:10px;
+        .caja__art--p1{
+          @include cajas(-1);
+        }
+    }
+    .caja__art{
+        @include cajas(1);
+    }
+}
+
+.tabla1{
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: solid;
+    border-width: medium;
+    text-align: center;
+    .tabla1__elemento{
+        color:black;
+        text-align: center;
+        font-weight: bold;
+
+
+   }
+
+}
+
+.ubicacion{
+    background-color: rgb(204, 191, 172);
+    width:100%;
+    padding: 10px;
+    .ubicacion__gma{
+        color: black;
+        text-align: center;
+    }
+}
+

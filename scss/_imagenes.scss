@@ -1,4 +1,6 @@
 /*Galeria*/
+$wd: 250px;
+
 main{
     display: flex;
     flex-flow: row wrap;
@@ -7,8 +9,8 @@ main{
     align-content: center;
     align-items: center;
     .galeria{
-        width: 500px;
-        height: 562px;
+        width:$wd*2;
+        height: ($wd*2)+12;
         opacity:3;
         border: 2px double;
        

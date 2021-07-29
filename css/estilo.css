@@ -1,3 +1,49 @@
+.caja {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px;
+  justify-content: center;
+  align-content: stretch; }
+  .caja .caja__art {
+    flex-basis: 300px;
+    margin: 10px; }
+    .caja .caja__art .caja__art--p1 {
+      background-color: #be7e5d;
+      order: -1;
+      flex-grow: 1;
+      font-weight: bold;
+      font-size: medium;
+      text-align: center; }
+  .caja .caja__art {
+    background-color: #be7e5d;
+    order: 1;
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center; }
+
+.tabla1 {
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: solid;
+  border-width: medium;
+  text-align: center; }
+  .tabla1 .tabla1__elemento {
+    color: black;
+    text-align: center;
+    font-weight: bold; }
+
+.ubicacion {
+  background-color: #ccbfac;
+  width: 100%;
+  padding: 10px; }
+  .ubicacion .ubicacion__gma {
+    color: black;
+    text-align: center; }
+
 .grid-container {
   margin: 20px auto;
   width: 95%;
@@ -13,19 +59,35 @@
 
 .especial {
   grid-area: especial;
-  background-color: #be7e5d; }
+  background-color: #be7e5d;
+  padding: 1rem; }
+  .especial p {
+    color: black;
+    text-align: center; }
 
 .dos {
   grid-area: dos;
-  background-color: #be7e5d; }
+  background-color: #be7e5d;
+  padding: 1rem; }
+  .dos p {
+    color: black;
+    text-align: center; }
 
 .cuatro {
   grid-area: cuatro;
-  background-color: #be7e5d; }
+  background-color: #be7e5d;
+  padding: 1rem; }
+  .cuatro p {
+    color: black;
+    text-align: center; }
 
 .seis {
   grid-area: seis;
-  background-color: #be7e5d; }
+  background-color: #be7e5d;
+  padding: 1rem; }
+  .seis p {
+    color: black;
+    text-align: center; }
 
 @media only screen and (max-width: 768px) {
   .padre {
@@ -77,7 +139,7 @@ main {
   align-items: center; }
   main .galeria {
     width: 500px;
-    height: 562px;
+    height: 512px;
     opacity: 3;
     border: 2px double; }
 
@@ -119,48 +181,3 @@ h3 {
   font-size: larger;
   text-align: center;
   text-decoration: underline; }
-
-.caja {
-  display: flex;
-  flex-flow: row wrap;
-  margin: 20px;
-  justify-content: center;
-  align-content: stretch; }
-  .caja .caja__art {
-    flex-basis: 300px;
-    margin: 10px; }
-    .caja .caja__art .caja__art--p1 {
-      background-color: #be7e5d;
-      order: -1;
-      flex-grow: 1;
-      font-weight: bolder;
-      font-size: medium;
-      text-align: center; }
-  .caja .caja__art {
-    background-color: #be7e5d;
-    order: 1;
-    flex-grow: 1;
-    font-weight: bolder;
-    font-size: medium;
-    text-align: center; }
-
-.tabla1 {
-  height: 250px;
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  border: solid;
-  border-color: #be7e5d;
-  border-width: medium; }
-  .tabla1 .tabla1__elemento {
-    color: black;
-    text-align: center; }
-
-.ubicacion {
-  background-color: #ccbfac;
-  width: 100%;
-  padding: 10px; }
-  .ubicacion .ubicacion__gma {
-    color: black;
-    text-align: center; }
