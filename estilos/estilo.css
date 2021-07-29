@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*Mobile*/
+/*Mobile
 @media only screen and (max-width:760px){
  
     h1{
@@ -24,7 +24,7 @@
         font-size: medium;
     }
 }
-
+/*
 
 .imagenLogo{
     border-radius: 50%;
@@ -244,6 +244,7 @@ grid-area: cuatro;
 grid-area: seis;
 }
 */
+/*No va este pq lo hice con boots
 .redes{
     background-image: linear-gradient(to right top, #c7b6a7, #c5a993, #c29b7f, #c08d6d, #be7e5d);
     display: grid;
@@ -275,8 +276,8 @@ align-self: start;
 grid-area: whatsapp;
 justify-self: end;
 align-self: start;
-}
-/*Mobile a grids*/
+}*/
+/*Mobile a grids
 @media only screen and (max-width:768px){
     .padre{
         grid-template-columns: 100%;
@@ -288,7 +289,7 @@ align-self: start;
         "seis";
     }
 
-}
+}*/
 
 /*Animacion*/
 .cartel:hover{
@@ -308,7 +309,7 @@ align-self: start;
     transition: all 2s ease;
 }
 
-/*Carrousel index*/
+/*Carrousel index
 
 .sizeCarrousel{
     width:1200px;
@@ -319,3 +320,4 @@ align-self: start;
     width: 1200px;
     height: 500px;
 }
+*/

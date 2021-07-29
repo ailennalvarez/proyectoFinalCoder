@@ -39,3 +39,15 @@ grid-area: seis;
 background-color:$bggrid;
 }
 
+@media only screen and (max-width:768px){
+    .padre{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, fr);
+        grid-template-areas:
+        "especial"
+        "dos"
+        "cuatro"
+        "seis";
+    }
+
+}
