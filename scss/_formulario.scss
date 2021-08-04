@@ -4,11 +4,14 @@
     display:flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-content:center;
+    align-content:right;
     border: solid 1px black;
-    margin:5%;
+    margin:1%;
+    background-color: #d99c79;
+    font-weight: bold;
+    font-size: 15px;
     .campos{
-        margin: 5px;
+        margin: 4px;
         flex-basis: 300px;
     }
 }
