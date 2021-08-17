@@ -6,9 +6,9 @@
   align-content: stretch; }
   .caja .caja__art {
     flex-basis: 300px;
-    margin: 10px; }
+    margin: 5px; }
     .caja .caja__art .caja__art--p1 {
-      background-color: #d99c79;
+      background-color: #A2A632;
       order: -1;
       flex-grow: 1;
       font-weight: bold;
@@ -16,13 +16,15 @@
       text-align: center;
       color: black; }
   .caja .caja__art {
-    background-color: #d99c79;
+    background-color: #A2A632;
     order: 1;
     flex-grow: 1;
     font-weight: bold;
     font-size: medium;
     text-align: center;
     color: black; }
+  .caja .lista {
+    text-align: left; }
 
 .tabla1 {
   height: 250px;
@@ -60,7 +62,7 @@
 
 .especial {
   grid-area: especial;
-  background-color: #d99c79;
+  background-color: #A6A051;
   padding: 1rem; }
   .especial p {
     color: black;
@@ -69,7 +71,7 @@
 
 .dos {
   grid-area: dos;
-  background-color: #d99c79;
+  background-color: #A6A051;
   padding: 1rem; }
   .dos p {
     color: black;
@@ -78,7 +80,7 @@
 
 .cuatro {
   grid-area: cuatro;
-  background-color: #d99c79;
+  background-color: #A6A051;
   padding: 1rem; }
   .cuatro p {
     color: black;
@@ -87,7 +89,7 @@
 
 .seis {
   grid-area: seis;
-  background-color: #d99c79;
+  background-color: #A6A051;
   padding: 1rem; }
   .seis p {
     color: black;
@@ -101,7 +103,7 @@
     grid-template-areas: "especial" "dos" "cuatro" "seis"; } }
 
 header .mimenu {
-  background-color: #ddc654; }
+  background-color: #BFAE99; }
   header .mimenu .mimenu__tituloP {
     text-transform: uppercase;
     padding: 1%;
@@ -113,7 +115,7 @@ header .mimenu {
     font-weight: bold; }
 
 .miFooter {
-  background-color: #ddc654;
+  background-color: #BFAE99;
   color: black;
   font-weight: bold; }
   .miFooter .miFooter__tituloP {
@@ -121,9 +123,12 @@ header .mimenu {
     padding: 1.5%;
     font-weight: bold;
     font-size: 150%; }
+  .miFooter .boton {
+    background-color: #A6A051;
+    font-weight: bold; }
 
 h1 {
-  color: #5e8c7f;
+  color: #A2A632;
   text-align: center;
   text-transform: uppercase;
   font-size: xx-large;
@@ -135,16 +140,20 @@ h1 {
 .formulario {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
-  align-content: right;
-  border: solid 1px black;
+  justify-content: left;
+  align-content: left;
+  border: solid 0.5px black;
   margin: 1%;
-  background-color: #d99c79;
+  background-color: #A2A632;
   font-weight: bold;
   font-size: 15px; }
   .formulario .campos {
     margin: 4px;
     flex-basis: 300px; }
+  .formulario .btEnviar {
+    background-color: #A6A051; }
+  .formulario .btBorrar {
+    background-color: #A6A051; }
 
 /*Galeria*/
 main {
@@ -195,7 +204,7 @@ main {
   box-sizing: border-box; }
 
 body {
-  background-color: #f2eadf;
+  background-color: #F2F2F2;
   font-family: 'Montserrat', sans-serif; }
 
 h3 {

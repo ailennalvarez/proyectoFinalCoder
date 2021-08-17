@@ -1,5 +1,5 @@
 @mixin cajas($order){
-    background-color:#d99c79;
+    background-color:#A2A632;
     order:$order;
     flex-grow: 1;
     font-weight:bold;
@@ -18,13 +18,16 @@
     align-content: stretch;
     .caja__art{
         flex-basis: 300px;
-        margin:10px;
+        margin:5px;
         .caja__art--p1{
           @include cajas(-1);
         }
     }
     .caja__art{
         @include cajas(1);
+    }
+    .lista{
+       text-align: left;
     }
 }
 

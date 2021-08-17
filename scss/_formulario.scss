@@ -3,15 +3,21 @@
 .formulario{
     display:flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-content:right;
-    border: solid 1px black;
+    justify-content: left;
+    align-content:left;
+    border: solid 0.5px black;
     margin:1%;
-    background-color: #d99c79;
+    background-color: #A2A632;
     font-weight: bold;
     font-size: 15px;
     .campos{
         margin: 4px;
         flex-basis: 300px;
+    }
+    .btEnviar{
+        background-color: #A6A051;
+    }
+    .btBorrar{
+        background-color:#A6A051;
     }
 }

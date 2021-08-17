@@ -1,6 +1,6 @@
 header{
     .mimenu{
-        background-color:#ddc654;
+        background-color:#BFAE99;
         .mimenu__tituloP{
             text-transform: uppercase;
             padding: 1%;
@@ -18,7 +18,7 @@ header{
 }
 
 .miFooter{
-    background-color:#ddc654;
+    background-color:#BFAE99;
     color: black;
     font-weight: bold;
     .miFooter__tituloP{
@@ -27,10 +27,14 @@ header{
         font-weight: bold;
         font-size:150%;
     }
+    .boton{
+        background-color: #A6A051;
+        font-weight: bold;    
+    }
 }
 
 h1{
-    color: #5e8c7f;
+    color: #A2A632;
     text-align: center;
     text-transform: uppercase;
     font-size: xx-large;
