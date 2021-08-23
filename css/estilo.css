@@ -45,6 +45,7 @@
   padding: 10px; }
   .ubicacion .ubicacion__gma {
     color: black;
+    font-weight: bold;
     text-align: center; }
 
 .grid-container {
@@ -150,10 +151,6 @@ h1 {
   .formulario .campos {
     margin: 4px;
     flex-basis: 300px; }
-  .formulario .btEnviar {
-    background-color: #A6A051; }
-  .formulario .btBorrar {
-    background-color: #A6A051; }
 
 /*Galeria*/
 main {
@@ -182,9 +179,10 @@ main {
   transition: all 2s ease; }
 
 .carrousel {
-  margin: 1%;
-  width: 98%;
-  height: 5%; }
+  display: block;
+  margin: auto;
+  width: 1000px;
+  height: 500px; }
 
 @media only screen and (max-width: 760px) {
   h1 {
